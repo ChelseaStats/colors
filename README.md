@@ -1,4 +1,0 @@
-colors
-======
-
-Colour scheme palette
