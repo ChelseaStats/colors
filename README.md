@@ -1,0 +1,4 @@
+colors
+======
+
+Colour scheme palette
