@@ -1,158 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <title>Palette</title>
-      <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-
-<!-- Optional theme -->
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- Latest compiled and minified CSS -->
+    <link media="all" rel="stylesheet" id="MainTheme" href="http://www.thechels.co.uk/wp-content/themes/ChelseaStats/style.css"/>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-      
-<!-- Latest compiled and minified JavaScript -->
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-      
-      
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <meta name="author" content="mrmrs">
     <meta name="description" content="A nicer color palette for the web. Download as css, sass, stylus, or plain text.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/colors.css">
-    <link rel="stylesheet" href="site.css">
-	<style>
-	body { margin: 0; padding: 0; font-family: helvetica, arial, sans-serif;}
-	div.pvl { display:inline-block; margin:1rem; padding:1rem; width:125px; border:1px solid #343434;}
 
-            
-        
-	/* backgrounds */
-	.bg-green  {background-color: #1d4b24; }
-    .bg-purple {background-color: #805eaf; }
-	.bg-blue   {background-color: #326ea1; }
-	.bg-blue2  {background-color: #355380; }
-	.bg-blue3  {background-color: #069dd5; }
-	
-	.bg-black  {background-color: #111111; }
-	.bg-white  {background-color: #ffffff; }
-	.bg-silver {background-color: #aaaaaa; }
-	.bg-gray   {background-color: #666666; }
-	.bg-border {background-color: #e2ddde; }
-	/* text */
-	
-	.green  {color: #1d4b24;}
-	.purple {color: #805eaf; }
-    .blue   {color: #326ea1; }
-	.blue2  {color: #355380; }
-	.blue3  {color: #069dd5; }
-	
-	.black  {color: #111111; }
-	.white  {color: #ffffff; }
-	.silver {color: #aaaaaa; }
-	.gray   {color: #666666; }
-	.border {color: #e2ddde; }
-	</style>
+
+    <style>
+        body {  font-family: helvetica, arial, sans-serif; text-align: left;}
+        div.pvl { display:inline-block; margin:1rem; padding:1rem; width:125px; border:1px solid #343434;}
+
+        /* backgrounds */
+        .bg-green  {background-color: #1d4b24; }
+        .bg-purple {background-color: #805eaf; }
+        .bg-blue   {background-color: #326ea1; }
+        .bg-blue2  {background-color: #355380; }
+        .bg-blue3  {background-color: #069dd5; }
+
+        .bg-black  {background-color: #111111; }
+        .bg-white  {background-color: #ffffff; }
+        .bg-FFBF47 {background-color: #FFBF47;}
+        .bg-silver {background-color: #aaaaaa; }
+        .bg-gray   {background-color: #666666; }
+        .bg-border {background-color: #e2ddde; }
+        /* text */
+
+        .green  {color: #1d4b24;}
+        .purple {color: #805eaf; }
+        .blue   {color: #326ea1; }
+        .blue2  {color: #355380; }
+        .blue3  {color: #069dd5; }
+
+        .black  {color: #111111; }
+        .white  {color: #ffffff; }
+        .silver {color: #aaaaaa; }
+        .gray   {color: #666666; }
+
+    </style>
 </head>
-  <body>
-      <div class="container">
-    <section>
-      <header class="pvxl">
-        <h1 class="mega title tc man">Palette</h1>
-      </header>
-      <h2 class="pvl thin f1">Background</h2>
-      
-	<section>
-	  <div class="bg-green pvl white">
-        <h3 class="title">Green</h3>
-        <h4 class="thin title small">#1d4b24</h4>
-      </div>
-      <div class="bg-purple pvl">
-        <h3 class="title">Purple</h3>
-        <h4 class="thin title small">#805eaf</h4>
-      </div>
-      <div class="bg-blue pvl">
-        <h3 class="title">Blue</h3>
-        <h4 class="thin title small">#326ea1</h4>
-      </div>
-      <div class="bg-blue2 pvl">
-        <h3 class="title">Blue 2</h3>
-        <h4 class="thin title small">#355380</h4>
-      </div>
-	  <div class="bg-blue3 pvl">
-        <h3 class="title">Blue 3</h3>
-        <h4 class="thin title small">#069dd5</h4>
-      </div>	  
-   </section>
-   <section>
-      <div class="bg-white pvl">
-        <h3 class="title">WHITE</h3>
-        <h4 class="thin title small">#ffffff</h4>
-      </div>
-      <div class="bg-silver pvl">
-        <h3 class="title">SILVER</h3>
-        <h4 class="thin title small">#dddddd</h4>
-      </div>
-      <div class="bg-gray pvl">
-        <h3 class="title">GRAY</h3>
-        <h4 class="thin title small">#aaaaaa</h4>
-      </div>
-      <div class="bg-black pvl white">
-        <h3 class="title">BLACK</h3>
-        <h4 class="thin title small">#111111</h4>
-      </div>
-	  <div class="bg-border pvl black">
-        <h3 class="title">Border</h3>
-        <h4 class="thin title small">#069dd5</h4>
-      </div>
-    </section>
-    <section>
-      <h4 class="thin f1 pvl">Text</h4>
-      <div class="green pvl">
-        <h3 class="title">Green</h3>
-        <h4 class="thin title small">#1d4b24</h4>
-      </div>
-      <div class="purple pvl">
-        <h3 class="title">Purple</h3>
-        <h4 class="thin title small">#805eaf</h4>
-      </div>
-      <div class="blue pvl">
-        <h3 class="title">Blue</h3>
-        <h4 class="thin title small">#326ea1</h4>
-      </div>
-      <div class="blue2 pvl">
-        <h3 class="title">Blue 2</h3>
-        <h4 class="thin title small">#355380</h4>
-      </div>
-	  <div class="blue3 pvl">
-        <h3 class="title">Blue 3</h3>
-        <h4 class="thin title small">#355380</h4>
-      </div>
-   </section>
-   <section>
-      <div class="black pvl">
-        <h3 class="title">BLACK</h3>
-        <h4 class="thin title small">#111111</h4>
-      </div>
-      <div class="bg-black gray pvl">
-        <h3 class="title">GRAY</h3>
-        <h4 class="thin title small">#aaaaaa</h4>
-      </div>
-      <div class="bg-black silver pvl">
-        <h3 class="title">SILVER</h3>
-        <h4 class="thin title small">#dddddd</h4>
-      </div>
-      <div class="bg-black white pvl">
-        <h3 class="title">WHITE</h3>
-        <h4 class="thin title small">#ffffff</h4>
-      </div>
-	       <div class="bg-border gray pvl">
-        <h3 class="title">Border</h3>
-        <h4 class="thin title small">#e2ddde</h4>
-      </div> 
-    </section>
-    
-    <p> #FFBF47 </p>
+<body>
+<div class="container">
+    <div class="row">
+        <section>
+            <h1>Pattern Library and Palette</h1>
+        </section>
+    </div>
+    <hr/>
+    <div class="row">
+
+        <div class="alert alert-info">Info alert</div>
+        <pre>&lt;div class="alert alert-info" &gt; Info alert &lt;/div&gt;</pre>
+
+        <div class="alert alert-warning">Warning alert</div>
+        <pre>&lt;div class="alert alert-info" &gt; Info alert &lt;/div&gt;</pre>
+
+        <div class="alert alert-success">Success alert</div>
+        <pre>&lt;div class="alert alert-info" &gt; Info alert &lt;/div&gt;</pre>
+
+    </div>
+    <hr/>
+    <div class="row">
+        <div class="progress">
+            <div class="bar bar-info" role="progressbar" aria-valuenow="50.9" aria-valuemin="0" aria-valuemax="100"
+                 style="width: 50.9%">50.9%</div>
+            <div class="bar bar-warning" role="progressbar" aria-valuenow="49.1" aria-valuemin="0" aria-valuemax="100"
+                 style="width: 49.1%">49.1%</div>
         </div>
-  </body>
+        <pre>
+        &lt;div class=&quot;progress&quot;&gt;
+        &lt;div class=&quot;bar bar-info&quot; role=&quot;progressbar&quot; aria-valuenow=&quot;50.9&quot;
+        aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot; style=&quot;width: 50.9%&quot;&gt;50.9%&lt;/div&gt;
+        &lt;div class=&quot;bar bar-warning&quot; role=&quot;progressbar&quot; aria-valuenow=&quot;49.1&quot;
+        aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot; style=&quot;width: 49.1%&quot;&gt;49.1%&lt;/div&gt;
+        &lt;/div&gt;
+        </pre>
+    </div>
+    <hr/>
+
+    <div class="row">
+        <h4 class="special">H4 special title</h4>
+        <pre>&lt;h4 class=&quot;special&quot;&gt;H4 special title&lt;/h4&gt;</pre>
+    </div>
+
+    <hr/>
+
+    <div class="row">
+
+        <section>
+            <div class="bg-green pvl white">
+                <h3 class="title">Green</h3>
+                <h4 class="thin title small">#1d4b24</h4>
+            </div>
+            <div class="bg-purple pvl">
+                <h3 class="title">Purple</h3>
+                <h4 class="thin title small">#805eaf</h4>
+            </div>
+            <div class="bg-blue pvl">
+                <h3 class="title">Blue</h3>
+                <h4 class="thin title small">#326ea1</h4>
+            </div>
+            <div class="bg-blue2 pvl">
+                <h3 class="title">Blue 2</h3>
+                <h4 class="thin title small">#355380</h4>
+            </div>
+            <div class="bg-blue3 pvl">
+                <h3 class="title">Blue 3</h3>
+                <h4 class="thin title small">#069dd5</h4>
+            </div>
+        </section>
+        <section>
+            <div class="bg-white pvl">
+                <h3 class="title">WHITE</h3>
+                <h4 class="thin title small">#ffffff</h4>
+            </div>
+            <div class="bg-silver pvl">
+                <h3 class="title">SILVER</h3>
+                <h4 class="thin title small">#dddddd</h4>
+            </div>
+            <div class="bg-gray pvl">
+                <h3 class="title">GRAY</h3>
+                <h4 class="thin title small">#aaaaaa</h4>
+            </div>
+            <div class="bg-black pvl white">
+                <h3 class="title">BLACK</h3>
+                <h4 class="thin title small">#111111</h4>
+            </div>
+            <div class="bg-border pvl black">
+                <h3 class="title">Border</h3>
+                <h4 class="thin title small">#069dd5</h4>
+            </div>
+        </section>
+        <section>
+            <div class="bg-FFBF47 pvl">
+                <h3 class="title">yella</h3>
+                <h4 class="thin title small">#FFBF47</h4>
+            </div>
+
+        </section>
+
+        <hr/>
+        <section>
+            <div class="green pvl">
+                <h3 class="title">Green</h3>
+                <h4 class="thin title small">#1d4b24</h4>
+            </div>
+            <div class="purple pvl">
+                <h3 class="title">Purple</h3>
+                <h4 class="thin title small">#805eaf</h4>
+            </div>
+            <div class="blue pvl">
+                <h3 class="title">Blue</h3>
+                <h4 class="thin title small">#326ea1</h4>
+            </div>
+            <div class="blue2 pvl">
+                <h3 class="title">Blue 2</h3>
+                <h4 class="thin title small">#355380</h4>
+            </div>
+            <div class="blue3 pvl">
+                <h3 class="title">Blue 3</h3>
+                <h4 class="thin title small">#355380</h4>
+            </div>
+        </section>
+        <section>
+            <div class="black pvl">
+                <h3 class="title">BLACK</h3>
+                <h4 class="thin title small">#111111</h4>
+            </div>
+            <div class="bg-black gray pvl">
+                <h3 class="title">GRAY</h3>
+                <h4 class="thin title small">#aaaaaa</h4>
+            </div>
+            <div class="bg-black silver pvl">
+                <h3 class="title">SILVER</h3>
+                <h4 class="thin title small">#dddddd</h4>
+            </div>
+            <div class="bg-black white pvl">
+                <h3 class="title">WHITE</h3>
+                <h4 class="thin title small">#ffffff</h4>
+            </div>
+            <div class="bg-border gray pvl">
+                <h3 class="title">Border</h3>
+                <h4 class="thin title small">#e2ddde</h4>
+            </div>
+        </section>
+
+        <hr/>
+    </div>
+</div>
+</body>
 </html>
