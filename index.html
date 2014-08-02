@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Palette</title>
-    <!-- Latest compiled and minified CSS -->
+    <title>Colors</title>
     <link media="all" rel="stylesheet" id="MainTheme" href="http://www.thechels.co.uk/wp-content/themes/ChelseaStats/style.css"/>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
@@ -29,11 +28,16 @@
         .mega { font-size: 2.5rem; }
         .small { font-size: 1rem; }
         .thin { font-weight: 100; }
-        .pvl { padding: 1rem; }
+        .pvl { padding: 1rem; border:1px solid black; width:260px; float:left;}
         .tc { text-align: center; }
         .title { text-transform: uppercase; letter-spacing: .14em; }
+        header { min-height:80px; margin-top:10px; }
+        h1 { font-size:18px; margin-top: 10px; margin-bottom:5px;}
+        .blue2 {color:#355380;}
+        .blue3 {color:#069dd5;}
+        .yella {color:#FFBF47;}
 
-/*        
+        /*
         .bg-green  {background-color: #1d4b24; }
         .bg-purple {background-color: #805eaf; }
         .bg-blue   {background-color: #326ea1; }
@@ -50,8 +54,7 @@
         .green  {color: #1d4b24;}
         .purple {color: #805eaf; }
         .blue   {color: #326ea1; }
-        .blue2  {color: #355380; }
-        .blue3  {color: #069dd5; }
+
 
         .black  {color: #111111; }
         .white  {color: #ffffff; }
@@ -111,7 +114,6 @@
     <div class="row">
 
     <section>
-      <h2 class="pvl thin f1">Backgrounds</h2>
       <div class="bg-navy pvl white">
         <h1 class="title">NAVY</h1>
         <h2 class="thin title small">#001f3f</h2>
@@ -167,14 +169,6 @@
       <div class="bg-white pvl">
         <h1 class="title">WHITE</h1>
         <h2 class="thin title small">#ffffff</h2>
-      </div>
-      <div class="bg-silver pvl">
-        <h1 class="title">SILVER</h1>
-        <h2 class="thin title small">#dddddd</h2>
-      </div>
-      <div class="bg-gray pvl">
-        <h1 class="title">GRAY</h1>
-        <h2 class="thin title small">#aaaaaa</h2>
       </div>
       <div class="bg-black pvl white">
         <h1 class="title">BLACK</h1>
@@ -236,104 +230,89 @@
         <h1 class="title">BLACK</h1>
         <h2 class="thin title small">#111111</h2>
       </div>
-      <div class="bg-black gray pvl">
+      <div class="gray pvl">
         <h1 class="title">GRAY</h1>
         <h2 class="thin title small">#aaaaaa</h2>
       </div>
-      <div class="bg-black silver pvl">
-        <h1 class="title">SILVER</h1>
-        <h2 class="thin title small">#dddddd</h2>
-      </div>
-      <div class="bg-black white pvl">
-        <h1 class="title">WHITE</h1>
-        <h2 class="thin title small">#ffffff</h2>
-      </div>
             <div class="bg-green pvl white">
-                <h3 class="title">Green</h3>
-                <h4 class="thin title small">#1d4b24</h4>
+                <h1 class="title">Green</h1>
+                <h2 class="thin title small">#1d4b24</h2>
             </div>
             <div class="bg-purple pvl">
-                <h3 class="title">Purple</h3>
-                <h4 class="thin title small">#805eaf</h4>
+                <h1 class="title">Purple</h1>
+                <h2 class="thin title small">#805eaf</h2>
             </div>
             <div class="bg-blue pvl">
-                <h3 class="title">Blue</h3>
-                <h4 class="thin title small">#326ea1</h4>
+                <h1 class="title">Blue</h1>
+                <h2 class="thin title small">#326ea1</h2>
             </div>
             <div class="bg-blue2 pvl">
-                <h3 class="title">Blue 2</h3>
-                <h4 class="thin title small">#355380</h4>
+                <h1 class="title">Blue 2</h1>
+                <h2 class="thin title small">#355380</h2>
             </div>
             <div class="bg-blue3 pvl">
-                <h3 class="title">Blue 3</h3>
-                <h4 class="thin title small">#069dd5</h4>
+                <h1 class="title">Blue 3</h1>
+                <h2 class="thin title small">#069dd5</h2>
             </div>
             <div class="bg-white pvl">
-                <h3 class="title">WHITE</h3>
-                <h4 class="thin title small">#ffffff</h4>
+                <h1 class="title">WHITE</h1>
+                <h2 class="thin title small">#ffffff</h2>
             </div>
             <div class="bg-silver pvl">
-                <h3 class="title">SILVER</h3>
-                <h4 class="thin title small">#dddddd</h4>
+                <h1 class="title">SILVER</h1>
+                <h2 class="thin title small">#dddddd</h2>
             </div>
             <div class="bg-gray pvl">
-                <h3 class="title">GRAY</h3>
-                <h4 class="thin title small">#aaaaaa</h4>
+                <h1 class="title">GRAY</h1>
+                <h2 class="thin title small">#aaaaaa</h2>
             </div>
             <div class="bg-black pvl white">
-                <h3 class="title">BLACK</h3>
-                <h4 class="thin title small">#111111</h4>
+                <h1 class="title">BLACK</h1>
+                <h2 class="thin title small">#111111</h2>
             </div>
             <div class="bg-border pvl black">
-                <h3 class="title">Border</h3>
-                <h4 class="thin title small">#069dd5</h4>
+                <h1 class="title">Border</h1>
+                <h2 class="thin title small">#069dd5</h2>
             </div>
-            <div class="bg-FFBF47 pvl">
-                <h3 class="title">yella</h3>
-                <h4 class="thin title small">#FFBF47</h4>
+            <div class="pvl yella">
+                <h1 class="title">yella</h1>
+                <h2 class="thin title small">#FFBF47</h2>
             </div>
             <div class="green pvl">
-                <h3 class="title">Green</h3>
-                <h4 class="thin title small">#1d4b24</h4>
+                <h1 class="title">Green</h1>
+                <h2 class="thin title small">#1d4b24</h2>
             </div>
             <div class="purple pvl">
-                <h3 class="title">Purple</h3>
-                <h4 class="thin title small">#805eaf</h4>
+                <h1 class="title">Purple</h1>
+                <h2 class="thin title small">#805eaf</h2>
             </div>
             <div class="blue pvl">
-                <h3 class="title">Blue</h3>
-                <h4 class="thin title small">#326ea1</h4>
+                <h1 class="title">Blue</h1>
+                <h2 class="thin title small">#326ea1</h2>
             </div>
             <div class="blue2 pvl">
-                <h3 class="title">Blue 2</h3>
-                <h4 class="thin title small">#355380</h4>
+                <h1 class="title">Blue 2</h1>
+                <h2 class="thin title small">#355380</h2>
             </div>
             <div class="blue3 pvl">
-                <h3 class="title">Blue 3</h3>
-                <h4 class="thin title small">#355380</h4>
+                <h1 class="title">Blue 3</h1>
+                <h2 class="thin title small">#069dd5</h2>
             </div>
             <div class="black pvl">
-                <h3 class="title">BLACK</h3>
-                <h4 class="thin title small">#111111</h4>
-            </div>
-            <div class="bg-black gray pvl">
-                <h3 class="title">GRAY</h3>
-                <h4 class="thin title small">#aaaaaa</h4>
-            </div>
-            <div class="bg-black silver pvl">
-                <h3 class="title">SILVER</h3>
-                <h4 class="thin title small">#dddddd</h4>
-            </div>
-            <div class="bg-black white pvl">
-                <h3 class="title">WHITE</h3>
-                <h4 class="thin title small">#ffffff</h4>
+                <h1 class="title">BLACK</h1>
+                <h2 class="thin title small">#111111</h2>
             </div>
             <div class="bg-border gray pvl">
-                <h3 class="title">Border</h3>
-                <h4 class="thin title small">#e2ddde</h4>
+                <h1 class="title">Border</h1>
+                <h2 class="thin title small">#e2ddde</h2>
             </div>
     </section>
+        </div>
+
+    <div class="row">
+        <p>&copy; @ChelseaStats 2014</p>
     </div>
-</div>    
+</div>
+
   </body>
 </html>
